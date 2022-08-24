@@ -44,7 +44,7 @@ export default function Home(){
                         <article key={filme.id}>
                             <strong>{filme.title}</strong>
                             <img src={`https://image.tmdb.org/t/p/original/${filme.poster_path}`} alt={filme.title} />
-                            <Link to={`/filmes/${filme.id}`}>Acessar</Link>
+                            <Link to={`/filme/${filme.id}`}>Acessar</Link>
                         </article>
                     )
                 })}
